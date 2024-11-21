@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-black">
+    <!-- navbar -->
+
+    <header>
+      <nav class="flex justify-between items-center flex-wrap mx-3">
+        <div class="flex flex-wrap">
+          <img
+            src="https://webhorror.netlify.app/logo.jpg"
+            alt="..."
+            class="w-28 mx-auto"
+          />
+        </div>
+        <div class="max-lg:hidden text-3xl">
+          <ul class="text-yellow-400 flex text-xl font-bold gap-5 flex-wrap">
+            <li>Home</li>
+            <li>Video</li>
+            <li>Team</li>
+            <li>Clients</li>
+            <li>Price</li>
+            <li>Tours</li>
+            <li>Forms</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-wrap space-x-7 font-serif font-bold max-lg:hidden"
+        >
+          <button class="text-black bg-yellow-400 text-md px-2 py-1 rounded-md">
+            Login
+          </button>
+          <button class="text-black bg-yellow-400 text-md px-2 py-1 rounded-md">
+            Sign up
+          </button>
+        </div>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars text-yellow-500 fa-2x"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main section -->
+
+    <main>
+      <section>
+        <div
+          class="max-[1024px]:text-center flex flex-col px-3 py-5 lg:flex lg:flex-row lg:justify-between lg:items-center lg:py-10"
+        >
+          <img
+            src="https://webhorror.netlify.app/home1.jpg"
+            alt=""
+            class="rounded-lg lg:w-8/12 lg:order-2"
+          />
+          <div class="py-5 font-bold lg:order-1">
+            <div class="text-yellow-400 text-3xl lg:text-4xl whitespace-nowrap">
+              WellCome To Horror <br />
+              SoftWare House
+            </div>
+            <div class=" ">
+              <button
+                class="mt-5 px-3 py-2 bg-yellow-400 rounded-md w-28 lg:w-32 lg:text-md lg:mt-10 whitespace-nowrap lg:px-5"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video  -->
+
+      <section>
+        <video
+          src="https://webhorror.netlify.app/video.mp4"
+          controls
+          class="w-full"
+        ></video>
+      </section>
+
+      <!-- Team  -->
+
+      <section>
+        <div class="my-28">
+          <div
+            class="text-6xl pb-9 text-yellow-400 font-bold text-center md:py-15 md:text-9xl"
+          >
+            OUR TEAM
+          </div>
+          <div class="">
+            <div
+              class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:mx-10 lg:space-y-5"
+            >
+              <div class="lg:flex md:items-center">
+                <img
+                  src="https://webhorror.netlify.app/team1.jpg"
+                  alt="..."
+                  class="px-5 lg:h-[160px] lg:px-0 object-cover"
+                />
+                <div class="text-yellow-400 max-lg:text-center my-5">
+                  <div class="text-3xl font-bold">GHOST</div>
+                  <div class="my-2">UI Developer</div>
+                  <div class="px-1 lg:text-wrap">
+                    The best Designer in the world. it's ready for User
+                    Interface design for Software Engineer.
+                  </div>
+                  <div
+                    class="flex w-full gap-3 max-lg:justify-center my-3 text-xl lg:justify-start"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-message"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:flex lg:items-center space-x-3">
+                <img
+                  src="https://webhorror.netlify.app/team2.jpg"
+                  alt="..."
+                  class="px-5 lg:h-[160px] lg:px-0 object-cover"
+                />
+                <div class="text-yellow-400 max-lg:text-center my-5">
+                  <div class="text-3xl font-bold">ONE EYE</div>
+                  <div class="my-2">Designer</div>
+                  <div class="px-1 lg:text-wrap">
+                    This is front end Designer and it's ready for many design
+                    for many people in Software engineer.
+                  </div>
+                  <div
+                    class="flex w-full gap-3 max-lg:justify-center my-3 text-xl lg:justify-start"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-message"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:flex lg:items-center">
+                <img
+                  src="https://webhorror.netlify.app/team3.jpg"
+                  alt="..."
+                  class="px-5 lg:h-[160px] lg:px-0 object-cover"
+                />
+                <div class="text-yellow-400 max-lg:text-center my-5">
+                  <div class="text-3xl font-bold">Annabelle</div>
+                  <div class="my-2">DataBase</div>
+                  <div class="px-1 lg:text-wrap">
+                    The annabelle is the backend designer and database expert
+                    for any language.
+                  </div>
+                  <div
+                    class="flex w-full gap-3 max-lg:justify-center my-3 text-xl lg:justify-start"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-message"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="lg:flex lg:items-center space-x-3">
+                <img
+                  src="https://webhorror.netlify.app/team4.jpg"
+                  alt="..."
+                  class="px-5 lg:h-[160px] lg:px-0 object-cover"
+                />
+                <div class="text-yellow-400 max-lg:text-center my-5">
+                  <div class="text-3xl font-bold">IT</div>
+                  <div class="my-2">Animation</div>
+                  <div class="px-1 lg:text-wrap">
+                    this is ready for many animation cartoon for many child and
+                    upload the internet.
+                  </div>
+                  <div
+                    class="flex w-full gap-3 max-lg:justify-center my-3 text-xl lg:justify-start"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-message"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Carousel  -->
+
+      <div
+        id="default-carousel"
+        class="relative lg:mx-auto mt-10 z-20"
+        data-carousel="slide"
+      >
+        <!-- Carousel wrapper -->
+        <div class="relative overflow-hidden rounded-lg md:h-96 lg:h-full">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="https://webhorror.netlify.app/slide1.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
+              alt="..."
+            />
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="https://webhorror.netlify.app/slide2.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
+              alt="..."
+            />
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img
+              src="https://webhorror.netlify.app/slide2.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 h-full"
+              alt="..."
+            />
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div
+          class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse"
+        >
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="true"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-3 h-3 rounded-full"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
+        </div>
+        <!-- Slider controls -->
+        <button
+          type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1 1 5l4 4"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button
+          type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+          >
+            <svg
+              class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 9 4-4-4-4"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+
+      <!-- Clients -->
+
+      <div class="my-16">
+        <div
+          class="text-5xl py-5 text-yellow-400 font-bold text-center md:py-15 lg:text-5xl"
+        >
+          Clients
+        </div>
+        <div class="text-center md:py-15 text-wrap text-yellow-400 py-5">
+          The world's best teams use Wickedtemplates to state theire presence.
+          <a href="#" class="text-blue-700"> Our customers »</a>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap justify-center gap-10 lg:gap-32 grayscale-[100%]"
+      >
+        <img
+          src="https://webhorror.netlify.app/team1.jpg"
+          class="h-20 w-20 object-cover cursor-pointer"
+          alt=""
+        />
+        <img
+          src="https://webhorror.netlify.app/team2.jpg"
+          class="h-20 w-20 object-cover cursor-pointer"
+          alt=""
+        />
+        <img
+          src="https://webhorror.netlify.app/team3.jpg"
+          class="h-20 w-20 object-cover cursor-pointer"
+          alt=""
+        />
+        <img
+          src="https://webhorror.netlify.app/team4.jpg"
+          class="h-20 w-20 object-cover cursor-pointer"
+          alt=""
+        />
+        <img
+          src="https://webhorror.netlify.app/slide1.jpg"
+          class="h-20 w-20 object-cover cursor-pointer"
+          alt=""
+        />
+        <img
+          src="https://webhorror.netlify.app/slide3.jpg"
+          class="h-20 w-20 object-cover cursor-pointer"
+          alt=""
+        />
+      </div>
+
+      <!-- Pricing -->
+
+      <div
+        class="text-5xl py-10 text-yellow-400 font-bold text-center md:py-15 lg:text-5xl"
+      >
+        Pricing
+      </div>
+      <div
+        class="flex justify-center border-2 border-yellow-400 w-44 mx-auto rounded-md"
+      >
+        <div class="text-black bg-yellow-400 px-3 py-2 -ml-1.5 rounded-l-sm">
+          Monthly
+        </div>
+        <div class="text-yellow-400 px-3 py-2">Annually</div>
+      </div>
+
+      <!-- Pricing Cards  -->
+
+      <div class="">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 mx-5 my-14"
+        >
+          <div
+            class="text-yellow-400 px-5 pb-5 pt-10 border-2 border-yellow-400 rounded-lg cursor-pointer"
+          >
+            <div class="">
+              <span class="font-semibold">START</span>
+              <h3 class="text-5xl my-3">Free</h3>
+              <div class="border border-yellow-400"></div>
+              <div class="my-10 space-y-3">
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Vexillologist pitchfork</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Tumeric plaid portland</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Mixtape chillwave tumeric</div>
+                </div>
+              </div>
+              <div
+                class="cursor-pointer px-3 py-2 bg-yellow-300 text-black flex justify-between items-center rounded-lg mt-20"
+              >
+                <div class="">Button</div>
+                <div class="">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="text-yellow-400 mt-5 lg:text-sm">
+                Literally you probably haven't heard of them jean shorts.
+              </div>
+            </div>
+          </div>
+          <div class="text-yellow-400 border-2 border-yellow-400 rounded-lg">
+            <div
+              class="bg-yellow-300 text-black px-3 py-2 w-24 ml-auto rounded-bl-md rounded-tr-md"
+            >
+              POPULAR
+            </div>
+            <div class="px-5">
+              <span class="font-semibold">PRO</span>
+              <div class="flex items-center">
+                <h3 class="text-5xl my-3 font-semibold">$38</h3>
+                <div class="font-semibold">/mo</div>
+              </div>
+              <div class="border border-yellow-400"></div>
+              <div class="my-10 space-y-3">
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Vexillologist pitchfork</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Tumeric plaid portland</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Hexagon neutra unicorn</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Mixtape chillwave tumeric</div>
+                </div>
+              </div>
+              <div
+                class="cursor-pointer px-3 py-2 bg-yellow-300 text-black flex justify-between items-center rounded-lg mt-10"
+              >
+                <div class="">Button</div>
+                <div class="">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="text-yellow-400 mt-5 lg:text-sm">
+                Literally you probably haven't heard of them jean shorts.
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-yellow-400 px-5 pb-5 pt-10 border-2 border-yellow-400 rounded-lg"
+          >
+            <div class="">
+              <span class="font-semibold">BUSINESS</span>
+              <div class="flex items-center">
+                <h3 class="text-5xl my-3 font-semibold">$56</h3>
+                <div class="font-semibold">/mo</div>
+              </div>
+              <div class="border border-yellow-400"></div>
+              <div class="my-10 space-y-3">
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Vexillologist pitchfork</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Tumeric plaid portland</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Hexagon neutra unicorn</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Mixtape chillwave tumeric</div>
+                </div>
+              </div>
+              <div
+                class="cursor-pointer px-3 py-2 bg-yellow-300 text-black flex justify-between items-center rounded-lg mt-10"
+              >
+                <div class="">Button</div>
+                <div class="">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="text-yellow-400 mt-5 lg:text-sm">
+                Literally you probably haven't heard of them jean shorts.
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-yellow-400 px-5 pb-5 pt-10 border-2 border-yellow-400 rounded-lg"
+          >
+            <div class="">
+              <span class="font-semibold">SPECIAL</span>
+              <div class="flex items-center">
+                <h3 class="text-5xl my-3 font-semibold">$72</h3>
+                <div class="font-semibold">/mo</div>
+              </div>
+              <div class="border border-yellow-400"></div>
+              <div class="my-10 space-y-3">
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Vexillologist pitchfork</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Tumeric plaid portland</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Hexagon neutra unicorn</div>
+                </div>
+                <div class="flex space-x-2">
+                  <div class="">
+                    <i class="fa-solid fa-circle-check"></i>
+                  </div>
+                  <div class="">Mixtape chillwave tumeric</div>
+                </div>
+              </div>
+              <div
+                class="cursor-pointer px-3 py-2 bg-yellow-300 text-black flex justify-between items-center rounded-lg mt-10"
+              >
+                <div class="">Button</div>
+                <div class="">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+              <div class="text-yellow-400 mt-5 lg:text-sm">
+                Literally you probably haven't heard of them jean shorts.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tours  -->
+
+      <section>
+        <div class="text-5xl my-15 text-yellow-400 font-bold text-center">
+          Tours
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-5 my-32">
+            <div class=" border-2 border-yellow-400 rounded-lg ">
+                <img src="https://webhorror.netlify.app/tour1.jpg" alt="" class="rounded-t-md object-cover h-52 w-full">
+                <div class="p-5 text-yellow-400">
+                    <div class="my-3 text-xl font-semibold">The Open House</div> 
+                    <span>This is fantastic place for student. He can ennjoy the place with own friend.</span>
+                    <div class="flex justify-between items-center my-3">
+                        <div class="">
+                            Learn More  <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-eye"></i> 1.2k | <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" border-2 border-yellow-400 rounded-lg ">
+                <img src="https://webhorror.netlify.app/tour2.jpg" alt="" class="rounded-t-md object-cover h-52 w-full">
+                <div class="p-5 text-yellow-400">
+                    <div class="my-3 text-xl font-semibold">Moon House</div> 
+                    <span>this house is moon house because you can see full moon in the roof. this is fantastic</span>
+                    <div class="flex justify-between items-center my-3">
+                        <div class="">
+                            Learn More  <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-eye"></i> 1.2k | <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" border-2 border-yellow-400 rounded-lg ">
+                <img src="https://webhorror.netlify.app/tour3.jpg" alt="" class="rounded-t-md object-cover h-52 w-full">
+                <div class="p-5 text-yellow-400">
+                    <div class="my-3 text-xl font-semibold">PlayGround</div> 
+                    <span>This is a playGround. you can play cricket, hockey, football and backetBall etc.</span>
+                    <div class="flex justify-between items-center my-3">
+                        <div class="">
+                            Learn More  <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div class="">
+                            <i class="fa-regular fa-eye"></i> 1.2k | <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Contact  -->
+
+      <section>
+        <div class="">
+            <div class="text-6xl my-15 text-yellow-400 font-bold text-center">
+                Contact Us
+            </div>
+            <div class="mt-20">
+                <div class="flex text-yellow-400 justify-center gap-5 flex-wrap">
+                    <div class="">
+                        <div class="text-xl">Name</div>
+                        <input type="text" class="bg-transparent border-2 border-yellow-400 rounded-md w-96">
+                    </div>
+                    <div class="">
+                        <div class="text-xl">Email</div>
+                        <input type="text" class="bg-transparent border-2 border-yellow-400 rounded-md w-96">
+                    </div>
+                </div>
+                <div class="text-yellow-400 max-md:w-96 lg:w-[790px] mx-auto">
+                    <div class="text-xl">Message</div>
+                    <input type="text" class=" bg-transparent border-2 border-yellow-400 rounded-md max-md:w-96 lg:w-[790px] h-44 align-text-top">
+                </div>
+                <div class=" text-md text-center bg-yellow-300 cursor-pointer px-4 w-28 mx-auto py-2 my-5 font-semibold rounded-md">
+                    Submit
+                </div>
+                <div class="border border-yellow-400 max-lg:w-96 lg:w-[820px] mx-auto"></div>
+                <div class="text-center text-yellow-400 my-5">
+                    hassanali4u2003@gmail.com
+                </div>
+                <div class="text-center my-2 text-yellow-400">
+                    49 Smith St. <br>
+                    Saint Cloud, MN 56301
+                </div>
+                <div class="flex justify-center gap-3 my-5 text-xl text-yellow-400">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-regular fa-message"></i>
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="mt-10">
+            <div class=" flex items-center lg:justify-between px-3 max-lg:justify-center max-lg:flex-wrap max-lg:space-y-3">
+                <div class="flex text-yellow-400 items-center">
+                    <div class="text-4xl">Horror </div>
+                    <div class="px-2 text-4xl"> | </div>
+                    <div class="">
+                        © 2021 Horror — @HassanAli
+                    </div>
+                </div>
+                <div class="flex text-yellow-400 gap-3 text-xl">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+  </body>
+</html>
